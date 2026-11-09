@@ -1,0 +1,6 @@
+label,coarse,atomic,atomic_gl_filter,atomic_sec_filter,TOTAL
+cross_source,9,8,14,19,50
+true_hallucination,63,72,71,78,284
+verifier_error,58,67,62,48,235
+version_mismatch,11,7,10,9,37
+TOTAL,141,154,157,154,606

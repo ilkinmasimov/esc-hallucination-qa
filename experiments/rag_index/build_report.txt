@@ -1,0 +1,50 @@
+files: 43
+records: 627
+coarse chunks: 525
+atomic chunks: 1035
+embed model: BAAI/bge-small-en-v1.5
+
+section_groups (atomic chunk counts):
+  AF_S10                 28
+  AF_S3                  27
+  AF_S4                  16
+  AF_S5                  20
+  AF_S6                  53
+  AF_S7                  72
+  AF_S8                   3
+  AF_S9                  44
+  CM_S12                 12
+  CM_S3                  13
+  CM_S6-10-6-11          49
+  CM_S6-7                20
+  CM_S6-8                23
+  CM_S7-1                61
+  CM_S7-2                20
+  CM_S7-3                18
+  CM_S7-4                15
+  CM_S7-5                12
+  CM_S7-6                 8
+  CM_S7-7                 7
+  CM_S8                  32
+  CVD_S3-2-3             19
+  CVD_S3-3               34
+  CVD_S3-4               14
+  CVD_S4-3               22
+  CVD_S4-5                7
+  CVD_S4-6               35
+  CVD_S4-7               45
+  CVD_S4-8-4-9           26
+  CVD_S6                 55
+  VHD_S10                16
+  VHD_S11                16
+  VHD_S12                 6
+  VHD_S13                14
+  VHD_S14                41
+  VHD_S15                 6
+  VHD_S16                 4
+  VHD_S4                  6
+  VHD_S5                  8
+  VHD_S6                 19
+  VHD_S7                 26
+  VHD_S8                 32
+  VHD_S9                 31

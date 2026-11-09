@@ -1,0 +1,6 @@
+_n_arms,cross_source,true_hallucination,verifier_error,version_mismatch,All,TH_share
+1,6,13,28,3,50,0.26
+2,5,8,21,1,35,0.229
+3,4,7,8,1,20,0.35
+4,3,31,18,3,55,0.564
+All,18,59,75,8,160,0.369

@@ -1,0 +1,77 @@
+group,run,arm,uid,text,row_i,sim,label,shipped_class,origin
+reviewed20,1,atomic,VHD_S8_Q9,Very severe aortic stenosis is defined by a mean pressure gradient greater than 60 mmHg.,4.0,0.6911764705882353,verifier_error,phantom,
+reviewed20,1,atomic,AF_S3_Q1,The key criterion for classifying atrial fibrillation as paroxysmal is spontaneous self-termination within 7 days.,,0.49107142857142855,,genuine,version_mismatch
+reviewed20,1,atomic,AF_S3_Q1,EHRA IIa describes mild symptoms that are present but not troublesome.,,0.423728813559322,,phantom,
+reviewed20,1,atomic_sec_filter,AF_S6_Q2,A formal bleeding-risk score should be used to support structured assessment and follow-up.,,0.46706586826347307,,genuine,version_mismatch
+reviewed20,1,atomic_sec_filter,AF_S6_Q2,HAS-BLED is the guideline-preferred tool for bleeding-risk assessment.,,0.4878048780487805,,genuine,version_mismatch
+reviewed20,2,atomic_gl_filter,VHD_S8_Q9,Very severe aortic stenosis (AS) is defined by a mean transvalvular gradient of 60 mmHg or higher according to ESC criteria.,,0.5465116279069767,,phantom,
+reviewed20,3,atomic_gl_filter,VHD_S8_Q9,Very severe aortic stenosis is defined by a mean gradient of 60 mmHg or higher according to ESC guidelines.,4.0,0.6064516129032258,verifier_error,phantom,
+reviewed20,3,coarse,AF_S3_Q1,mEHRA class 2 corresponds to patients with noticeable symptoms but preserved normal daily activity.,,0.4075471698113208,,phantom,
+reviewed20,3,coarse,AF_S3_Q1,"mEHRA class 2 is subclassified into 2a if symptoms are present but not troublesome, or 2b if symptoms are troublesome despite preserved daily activity.",10.0,0.6624605678233438,verifier_error,phantom,
+batch1,1,coarse,AF_S9_Q11,Peri-operative beta-blocker treatment may also be considered to prevent post-operative AF after cardiac surgery.,36.0,0.7707317073170732,true_hallucination,genuine,unresolved_TH
+batch1,1,coarse,AF_S9_Q11,Both prophylactic amiodarone and peri-operative beta-blocker treatment for prevention of post-operative AF carry a Class IIb recommendation.,36.0,0.6695278969957081,true_hallucination,genuine,unresolved_TH
+batch1,1,atomic,AF_S9_Q11,"In the peri-operative phase, beta-blocker treatment is recommended to prevent post-operative AF after cardiac surgery.",36.0,0.7488151658767772,true_hallucination,genuine,unresolved_TH
+batch1,1,atomic,AF_S9_Q11,Beta-blocker treatment to prevent post-operative AF after cardiac surgery is a Class I recommendation.,36.0,0.6461538461538462,true_hallucination,genuine,unresolved_TH
+batch1,1,atomic,AF_S9_Q11,Peri-operative amiodarone to reduce post-operative AF is a Class IIb recommendation.,35.0,0.8902439024390244,true_hallucination,genuine,unresolved_TH
+batch1,1,atomic_gl_filter,AF_S9_Q11,Both peri-operative amiodarone and posterior pericardiotomy are supported by guideline recommendations as Class IIb interventions to reduce peri-operative AF.,,0.44621513944223107,,genuine,unresolved_TH
+batch1,1,coarse,CM_S12_Q1,Toxic exposures principally drive dilated-toxic cardiomyopathy.,44.0,0.6929133858267716,verifier_error,phantom,
+batch1,2,atomic_gl_filter,AF_S9_Q5,"In an AF patient undergoing PCI for ACS, the recommended default is a periprocedural triple antithrombotic regimen with an oral anticoagulant, aspirin, and a P2Y12 inhibitor.",,0.0,,phantom,
+batch1,2,atomic_gl_filter,AF_S9_Q5,A reduced DOAC dose can be considered during concomitant antiplatelet therapy to mitigate bleeding risk.,,0.0,,phantom,
+batch1,2,coarse,AF_S9_Q11,"For peri-operative prevention of post-operative atrial fibrillation, treatment with peri-operative beta-blocker therapy is recommended.",,0.3700787401574803,,genuine,unresolved_TH
+batch1,2,coarse,AF_S9_Q11,The recommendations for peri-operative amiodarone and beta-blocker therapy to prevent post-operative atrial fibrillation are Class I recommendations.,,0.5702479338842975,,genuine,unresolved_TH
+batch1,2,coarse,AF_S9_Q11,Peri-operative use of beta-blockers is supported specifically as an effective preventive strategy for post-operative atrial fibrillation.,36.0,0.6086956521739131,true_hallucination,genuine,unresolved_TH
+batch1,2,atomic,AF_S9_Q11,"For peri-operative prevention of post-operative AF, beta-blocker treatment is recommended when not contraindicated.",,0.5288461538461539,,genuine,unresolved_TH
+batch1,2,atomic,AF_S9_Q11,"Colchicine may be considered for prevention of post-operative AF, particularly after cardiac surgery.",,0.4742268041237113,,genuine,new
+batch1,2,atomic,AF_S9_Q11,"Beta-blockers have a positive preventive role in post-operative AF and are recommended rather than discouraged, provided there are no contraindications.",,0.42448979591836733,,genuine,unresolved_TH
+batch1,2,atomic_sec_filter,AF_S9_Q11,Colchicine may be considered for prevention of post-operative AF if tolerated.,,0.47953216374269003,,genuine,new
+batch1,3,coarse,AF_S9_Q11,Colchicine may be considered to prevent post-operative AF after cardiac surgery.,,0.5317919075144508,,genuine,new
+batch1,3,coarse,AF_S9_Q11,"The preventive strategies specifically supported by the guideline for post-operative AF are amiodarone, posterior pericardiotomy, and optionally colchicine.",,0.43373493975903615,,genuine,unresolved_TH
+batch1,3,atomic_gl_filter,AF_S9_Q11,Posterior pericardiotomy for reducing post-operative AF incidence has a Class I recommendation.,35.0,0.6742857142857143,true_hallucination,genuine,unresolved_TH
+batch2,1,coarse,VHD_S9_Q2,An effective regurgitant orifice area (EROA) of 80 mm² indicates severe mitral regurgitation.,,0.0,,phantom,
+batch2,1,atomic_gl_filter,VHD_S9_Q2,The classification of 'severe' mitral regurgitation is primarily anchored to optimized resting measurements.,,0.0,,phantom,
+batch2,1,atomic,AF_S9_Q8,"After ACS/PCI, the combination of oral anticoagulant plus clopidogrel should be continued for up to 6 months, even in complex coronary disease such as multivessel and left main PCI.",,0.0,,phantom,
+batch2,1,coarse,AF_S10_Q3,Approximately 37.6 million people worldwide have atrial fibrillation.,,0.49333333333333335,,genuine,CIE
+batch2,1,coarse,AF_S10_Q3,"In a United States community cohort, atrial fibrillation prevalence was approximately 6.1%.",,0.3953488372093023,,genuine,CIE
+batch2,1,atomic_gl_filter,AF_S10_Q3,Atrial fibrillation affects about 2–4% of the global population.,72.0,0.9841269841269841,true_hallucination,genuine,unresolved_TH
+batch2,2,coarse,VHD_S6_Q4,Concomitant surgical AF ablation in patients undergoing valve surgery is a Class IIa recommendation.,,0.48826291079812206,,genuine,unresolved_TH
+batch2,2,atomic_gl_filter,VHD_S6_Q7,"In acute decompensated aortic stenosis, cardiogenic shock is present in about 10% of hospitalizations.",,0.26595744680851063,,genuine,unresolved_TH
+batch2,2,atomic_sec_filter,VHD_S8_Q8,Outcomes with intervention are clearly better than with conservative management even in patients without contractile reserve.,,0.0,,genuine,unresolved_TH
+batch2,2,atomic,VHD_S9_Q2,Severe secondary mitral regurgitation is defined by an effective regurgitant orifice area (EROA) of at least 40 mm² according to ESC criteria.,,0.0,,phantom,
+batch2,2,atomic_gl_filter,AF_S9_Q8,The P2Y12 inhibitor should be continued with the oral anticoagulant for up to 12 months after ACS-PCI when stent-thrombosis risk outweighs bleeding risk.,,0.3475609756097561,,phantom,
+batch2,2,atomic_sec_filter,CM_S7-1_Q3,"The presence of a left ventricular apical aneurysm should weigh strongly toward primary-prevention ICD implantation in the context of shared decision-making, especially if additional risk factors are present.",,0.4155844155844156,,genuine,unresolved_TH
+batch2,2,atomic_gl_filter,CM_S8_Q1,"In individuals with dilated or non-dilated left ventricular cardiomyopathy, high-intensity exercise or competitive sport may be considered only after expert assessment when all of the following are absent: prior cardiac arrest or unexplained syncope, a history of exercise-induced symptoms, frequent or complex ventricular arrhythmias on ambulatory monitoring or exercise testing, extensive late gadolinium enhancement on CMR, and systolic impairment with LVEF >40%.",,0.40764331210191085,,genuine,CIE
+batch2,3,atomic_gl_filter,VHD_S6_Q7,"In acute decompensated aortic stenosis, cardiogenic shock complicates about 3–13% of hospitalizations.",,0.26595744680851063,,genuine,unresolved_TH
+batch2,3,atomic_gl_filter,VHD_S9_Q2,Severe secondary mitral regurgitation is defined by an effective regurgitant orifice area (EROA) of at least 40 mm² and a regurgitant volume of at least 60 mL according to ESC criteria.,,0.0,,phantom,
+batch2,3,atomic,AF_S7_Q11,Short-term post-cardioversion anticoagulation is not optional and is required for at least 4 weeks after the procedure even in low-risk patients with atrial fibrillation of less than 24 hours’ duration.,,0.3302180685358255,,genuine,CIE
+batch3,1,atomic,VHD_S14_Q2,"In the ESC framework, severe haemodynamic SVD of a mitral bioprosthesis is identified by a rise in mean transmitral gradient ≥10 mmHg and/or severe intraprosthetic regurgitation.",,0.0,,phantom,
+batch3,1,atomic_gl_filter,AF_S10_Q1,Snapshot methods are useful for opportunistic case finding of atrial fibrillation.,113.0,0.6349206349206349,verifier_error,phantom,
+batch3,1,coarse,CM_S6-10-6-11_Q1,Patients with dilated and nondilated left ventricular cardiomyopathy who have atrial fibrillation or atrial flutter should receive oral anticoagulation regardless of CHA₂DS₂-VASc score.,,0.0,,genuine,CIE
+batch3,1,coarse,CVD_S4-6_Q2,Adding ezetimibe to a moderate-intensity statin produces an average LDL-C reduction of about 50%.,,0.0,,phantom,
+batch3,1,atomic_gl_filter,CVD_S4-6_Q2,"The main expected LDL-C reductions across regimens are approximately 30% for moderate-intensity statin, 50% for high-intensity statin, 65% for high-intensity statin plus ezetimibe, and 75% for high-intensity statin plus ezetimibe plus a PCSK9 inhibitor.",,0.0,,genuine,CIE
+batch3,1,atomic_sec_filter,CVD_S4-6_Q2,"The main expected LDL-C reductions across regimens are approximately 30% for moderate-intensity statin, 50% for high-intensity statin, 65% for high-intensity statin plus ezetimibe, and 75% for high-intensity statin plus ezetimibe plus a PCSK9 inhibitor.",,0.0,,genuine,CIE
+batch3,2,coarse,VHD_S14_Q2,A mean transmitral gradient of 24 mmHg indicates severe haemodynamic SVD.,98.0,0.6666666666666666,verifier_error,phantom,
+batch3,2,atomic,VHD_S14_Q2,"In the ESC framework, severe mitral BHV SVD is identified by major permanent haemodynamic deterioration using changes in valve haemodynamics such as worsening obstruction with supportive changes in EOA/DVI and a mean transmitral gradient rise ≥10 mmHg.",,0.0,,phantom,
+batch3,2,atomic,AF_S5_Q1,Dapagliflozin or empagliflozin are recommended to reduce heart failure hospitalisation and cardiovascular death in HFpEF (Class I).,,0.0,,phantom,
+batch3,2,coarse,CM_S6-10-6-11_Q1,"In arrhythmogenic right ventricular cardiomyopathy, all patients with atrial fibrillation or atrial flutter should receive long-term oral anticoagulation irrespective of CHA₂DS₂-VASc score.",,0.0,,genuine,CIE
+batch3,2,coarse,CM_S6-10-6-11_Q1,"In dilated cardiomyopathy, all patients with atrial fibrillation or atrial flutter should receive long-term oral anticoagulation irrespective of CHA₂DS₂-VASc score.",,0.0,,genuine,CIE
+batch3,2,coarse,CM_S6-10-6-11_Q1,"In non-dilated left ventricular cardiomyopathy, all patients with atrial fibrillation or atrial flutter should receive long-term oral anticoagulation irrespective of CHA₂DS₂-VASc score.",,0.0,,genuine,CIE
+batch3,2,coarse,CM_S6-10-6-11_Q1,"The key distinction in anticoagulation strategy is universal anticoagulation for hypertrophic cardiomyopathy, amyloidosis, restrictive cardiomyopathy, arrhythmogenic right ventricular cardiomyopathy, dilated cardiomyopathy, and non-dilated left ventricular cardiomyopathy.",,0.0,,genuine,CIE
+batch3,2,coarse,CVD_S4-7_Q1,"If younger patients have diabetes, coronary artery disease, prior stroke/TIA, or chronic kidney disease, the recommended systolic target is 130–139 mmHg.",,0.0,,genuine,unresolved_TH
+batch3,3,coarse,VHD_S14_Q2,Severe haemodynamic SVD is defined by the presence of new severe intraprosthetic mitral regurgitation.,,0.0,,phantom,
+batch3,3,coarse,CM_S6-10-6-11_Q1,"In arrhythmogenic right ventricular cardiomyopathy, all patients with atrial fibrillation or atrial flutter should receive oral anticoagulation irrespective of CHA₂DS₂-VASc score.",,0.0,,genuine,CIE
+batch3,3,coarse,CM_S6-10-6-11_Q1,"In dilated or non-dilated left ventricular cardiomyopathy, all patients with atrial fibrillation or atrial flutter should receive oral anticoagulation irrespective of CHA₂DS₂-VASc score.",,0.0,,genuine,CIE
+batch3,3,coarse,CM_S6-10-6-11_Q1,Oral anticoagulation is recommended when CHA₂DS₂-VASc score is ≥2 in men or ≥3 in women.,115.0,0.6280193236714976,verifier_error,phantom,
+batch3,3,coarse,CM_S6-10-6-11_Q1,Oral anticoagulation should be considered when CHA₂DS₂-VASc score is 1 in men or 2 in women.,116.0,0.6666666666666666,verifier_error,phantom,
+batch3,3,coarse,CM_S6-10-6-11_Q1,"The cardiomyopathy phenotypes managed with oral anticoagulation irrespective of CHA₂DS₂-VASc score are hypertrophic cardiomyopathy, cardiac amyloidosis, arrhythmogenic right ventricular cardiomyopathy, and dilated/non-dilated left ventricular cardiomyopathy.",,0.0,,genuine,CIE
+batch3,3,coarse,CVD_S4-7_Q1,"For adults aged 65–79 years, the ultimate systolic office BP target is 120–129 mmHg if tolerated.",,0.19534883720930232,,genuine,unresolved_TH
+batch4,1,atomic_gl_filter,CVD_S3-3_Q1,"For people of other Asian ancestry, the recommended cardiovascular risk multiplier is 1.1 for Chinese and 0.7 for Japanese.",154.0,0.7610619469026548,true_hallucination,genuine,unresolved_TH
+batch4,1,atomic_gl_filter,CVD_S3-3_Q1,"For Black ethnic groups, the recommended cardiovascular risk multiplier is 1.3.",,0.0,,genuine,unresolved_TH
+batch4,2,atomic,VHD_S8_Q4,Severe aortic stenosis is highly likely if CT aortic valve calcium score is greater than 3000 Agatston units in men.,,0.0,,phantom,
+batch4,2,atomic_gl_filter,VHD_S8_Q4,"Normal-flow, low-gradient AS is defined by stroke volume index greater than 35 mL/m².",131.0,0.84375,true_hallucination,genuine,unresolved_TH
+batch4,2,atomic_gl_filter,VHD_S8_Q7,"By ESC criteria, an aortic valve calcium score greater than 1600 Agatston units makes severe aortic stenosis very likely or specific in women.",133.0,0.6416666666666667,verifier_error,phantom,
+batch4,2,atomic,VHD_S9_Q5,"If the patient is symptomatic, mitral valve surgery is a class I indication regardless of other parameters.",,0.3056768558951965,,genuine,unresolved_TH
+batch4,2,atomic,CVD_S3-3_Q1,"For Bangladeshi ethnicity, the recommended multiplier is 1.7.",,0.40993788819875776,,genuine,CIE
+batch4,2,atomic,CVD_S3-3_Q1,"For Pakistani ethnicity, the recommended multiplier is 1.5.",,0.0,,genuine,CIE
+batch4,3,atomic_sec_filter,VHD_S8_Q4,"Severe AS is supported by an Agatston calcium score >3000 in men (highly likely) or >2000 (likely), with lower thresholds in women.",,0.0,,phantom,
+batch4,3,atomic_sec_filter,VHD_S8_Q4,"Normal-flow, low-gradient AS is defined by stroke volume index >35 mL/m².",131.0,0.7555555555555555,true_hallucination,genuine,unresolved_TH
+batch4,3,atomic_gl_filter,CVD_S3-3_Q1,"For people of Bangladeshi origin, the recommended cardiovascular risk multiplier is 1.7.",,0.48936170212765956,,genuine,CIE

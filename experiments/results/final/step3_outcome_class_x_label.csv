@@ -1,0 +1,8 @@
+outcome_class,cross_source,true_hallucination,verifier_error,version_mismatch,All
+corrected_clean,3,38,18,6,65
+correction_harm,0,4,15,0,19
+mixed,3,2,5,0,10
+narrowed,11,8,17,0,36
+resisted_kept,1,1,12,1,15
+unresolved,0,6,8,1,15
+All,18,59,75,8,160

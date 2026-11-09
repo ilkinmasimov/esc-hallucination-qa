@@ -1,0 +1,6 @@
+human_label,refuted,supported,unverifiable,All
+cross_source,21,2,27,50
+true_hallucination,234,13,37,284
+verifier_error,113,72,50,235
+version_mismatch,15,8,14,37
+All,383,95,128,606

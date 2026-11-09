@@ -1,0 +1,7 @@
+metric,value
+TH flags confirmed (judge=refuted),82.4% (234/284)
+verifier_error overturned (judge=supported),30.6% (72/235)
+cross_source confirmed (judge=refuted),42.0% (21/50)
+version_mismatch confirmed (judge=refuted),40.5% (15/37)
+binary agreement (all judged),74.2%
+Cohen's kappa,0.505

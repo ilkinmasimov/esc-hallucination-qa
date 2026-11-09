@@ -1,0 +1,8 @@
+phase,date,usd,scope
+dataset_construction_qwen,2026-05-01,1.45,"bank charge, monthly billing"
+dataset_construction_qwen,2026-06-01,4.11,"bank charge, monthly billing"
+core_experiment_openai,2026-06-17,1.75,dev + pilot
+core_experiment_openai,2026-06-29,5.91,reviewed20 round (3 runs x 4 arms) + dev same day
+dataset_construction_qwen,2026-07-01,4.5,"bank charge, monthly billing"
+core_experiment_openai,2026-09-18,27.76,batches 1-4 (140q x 3 runs x 4 arms = 1680 arm-runs)
+step7_second_verifier_openai,2026-10-31,6.34,"second-judge re-verification: 906 judgments (606 flagged + 300 supported); 910 requests, 2.562M input tokens; pre-run estimate 2.56M tok / $6.41"
